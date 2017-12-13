@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "10.3"
+
+inhibit_all_warnings!
+use_frameworks!
+
+target :{{ cookiecutter.name }} do
+	pod 'Fabric'
+	pod 'Crashlytics', '~> 3.8'
+	pod 'HockeySDK', '~> 3.5'
+	pod 'Alamofire', '~> 4.4'
+	pod 'KeychainAccess'
+	pod 'Analytics'
+	pod 'Segment-Mixpanel'
+	pod 'PluggableApplicationDelegate', :git => "https://github.com/fmo91/PluggableApplicationDelegate"
+	pod 'ReachabilitySwift', '~> 3.0'
+	pod 'SwiftyUserDefaults'
+end

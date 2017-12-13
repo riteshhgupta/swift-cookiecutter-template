@@ -1,0 +1,1 @@
+import_from_git(url: "git@github.com:Fueled/ios-project-generator-osx.git", branch: "fix/fastlane")

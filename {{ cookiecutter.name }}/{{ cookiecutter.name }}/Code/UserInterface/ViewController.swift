@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  {{ cookiecutter.name }}
 //
-//  Created by {{ cookiecutter.full_name }} on 22/02/17.
+//  Created by {{ cookiecutter.full_name }} on {{ cookiecutter.release_date }}. 
 //  Copyright © 2017 {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
