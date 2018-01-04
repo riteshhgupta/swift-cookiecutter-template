@@ -12,7 +12,6 @@ target :{{ cookiecutter.name }} do
 	pod 'KeychainAccess'
 	pod 'Analytics'
 	pod 'Segment-Mixpanel'
-	pod 'PluggableApplicationDelegate', :git => "https://github.com/fmo91/PluggableApplicationDelegate"
 	pod 'ReachabilitySwift', '~> 3.0'
 	pod 'SwiftyUserDefaults'
 end
